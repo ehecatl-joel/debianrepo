@@ -1,0 +1,47 @@
+# See https://wiki.debian.org/SourcesList for more information.
+deb http://deb.debian.org/debian/ buster main non-free contrib
+deb-src http://deb.debian.org/debian/ buster main non-free contrib
+
+deb http://deb.debian.org/debian/ buster-updates main non-free contrib
+deb-src http://deb.debian.org/debian/ buster-updates main non-free contrib
+
+deb http://security.debian.org/debian-security/ buster/updates main non-free contrib
+deb-src http://security.debian.org/debian-security/ buster/updates main non-free contrib
+
+#Debian Multimedia
+deb http://www.deb-multimedia.org buster main non-free
+
+#Wine
+deb https://dl.winehq.org/wine-builds/debian/ buster main
+
+#MKV Toolnix
+deb https://mkvtoolnix.download/debian/ buster main
+deb-src https://mkvtoolnix.download/debian/ buster main
+
+#Tizonia
+deb https://dl.bintray.com/tizonia/debian buster main
+
+#Dropbox
+deb [arch=i386,amd64] http://linux.dropbox.com/debian buster main
+
+#Google Chrome
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+
+#Insync
+deb http://apt.insync.io/debian buster non-free contrib
+
+#Papirus
+deb http://ppa.launchpad.net/papirus/papirus/ubuntu focal main
+
+#Skype
+deb [arch=amd64] https://repo.skype.com/deb stable main
+
+#VirtualBox
+deb http://download.virtualbox.org/virtualbox/debian buster contrib
+
+#Vivaldi
+deb http://repo.vivaldi.com/stable/deb/ stable main
+
+deb http://deb.debian.org/debian buster-backports main contrib non-free
+deb https://debian.drdteam.org/ stable multiverse
+# deb-src https://debian.drdteam.org/ stable multiverse
