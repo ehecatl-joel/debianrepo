@@ -8,8 +8,8 @@ deb-src http://deb.debian.org/debian/ buster-updates main non-free contrib
 deb http://security.debian.org/debian-security/ buster/updates main non-free contrib
 deb-src http://security.debian.org/debian-security/ buster/updates main non-free contrib
 
-#Debian Multimedia
-deb http://www.deb-multimedia.org buster main non-free
+#Debian Multimedia NO RECOMENDADO PORQUE INTERFIERE CON LIVAVCODEC
+#deb http://www.deb-multimedia.org buster main non-free
 
 #Wine
 deb https://dl.winehq.org/wine-builds/debian/ buster main
