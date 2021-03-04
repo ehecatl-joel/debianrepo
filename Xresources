@@ -1,0 +1,101 @@
+Xcursor.size: 16
+
+! Extra options for xft font spec - ~/.fonts.conf seems to override this
+!:antialias=false:hintstyle=hintfull
+
+#define WINDOWGEOMETRY 80x27
+
+! xterm
+xterm*allowBoldFonts: false
+XTerm*selectToClipboard: true
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+xterm*faceName: xft:terminus:size=12:antialias=true:autohinting=true
+xterm*font:     xft:terminus:size=12:antialias=true:autohinting=true
+xterm*boldFont: xft:terminus:size=12:antialias=true:autohinting=true
+xterm*loginshell: true
+xterm*savelines: 16384
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+xterm*dynamiccolors:      true
+xterm*utf8:               2
+xterm*geometry:           WINDOWGEOMETRY
+xterm*visualBell:         on
+xterm*highlightSelection: true
+
+! Colors
+
+!*.boldMode: true
+!*.colorBDMode: false
+!*.colorBD: cyan
+
+!! Base16 Flat
+#define base00 #2C3E50
+#define base01 #34495E
+#define base02 #7F8C8D
+#define base03 #95A5A6
+#define base04 #BDC3C7
+#define base05 #e0e0e0
+#define base06 #f5f5f5
+#define base07 #ECF0F1
+#define base08 #E74C3C
+#define base09 #E67E22
+#define base0A #F1C40F
+#define base0B #2ECC71
+#define base0C #1ABC9C
+#define base0D #3498DB
+#define base0E #9B59B6
+#define base0F #be643c
+
+! ARC XResources
+#define arc0 #383c4a
+#define arc1 #9A4138
+#define arc2 #4BEC90
+#define arc3 #D8D782
+#define arc4 #5294e2
+#define arc5 #CE50DD
+#define arc6 #6BE5E7
+#define arc7 #CCCCCC
+#define arc8 #404552
+#define arc9 #E7766B
+#define arc10 #3CBF75
+#define arc11 #CFCD63
+#define arc12 #579CEF
+#define arc13 #E7766B
+#define arc14 #90FDFF
+#define arc15 #ffffff
+#define arc16 #E7E8EB
+
+! ARC
+*.background: arc0
+*.foreground: arc15
+*.cursorColor:  #dc322f
+*.cursorColor2: #dc322f
+*.cursorUnderline: true
+*.cursorBlink: true
+
+!black
+*color0: #383c4a
+*color8: #404552
+!red
+*color1: #9A4138
+*color9: #E7766B
+!green
+*color2: #4BEC90
+*color10: #3CBF75
+!yellow
+*color3: #D8D782
+*color11: #CFCD63
+!blue
+*color4: #5294e2
+*color12: #579CEF
+!magenta
+*color5: #CE50DD
+*color13: #E7766B
+!cyan
+*color6: #6BE5E7
+*color14: #90FDFF
+!white
+*color7: #CCCCCC
+*color15: #FFFFFF
