@@ -1,0 +1,13 @@
+#xrandr --output HDMI-1 --auto --output LVDS-1 --off &
+xrandr --output HDMI-1 --auto --pos 0x0 --primary --output VGA-1 --auto --pos 277x1080 --output LVDS-1 --off &
+compton &
+nitrogen --restore &
+tint2 &
+volumeicon &
+plank &
+#guake &
+conky -c ~/.conky/cyan.conkyrc &
+#conky -c ~/.conky/simple-ramcpu.conkyrc &
+conky -c ~/.conky/syclo-blue-center.conkyrc &
+conky -c ~/.conky/flea/flea-ekt.conkyrc &
+dropboxdoble &
